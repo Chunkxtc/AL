@@ -1,0 +1,131 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Belgrano, serif;
+	font-size: 14px;
+	background: url(images/siteBackground.jpg);
+	padding-top: 10px;
+	color: blue;
+}
+
+
+img, a, audio, video{
+	border: 0;
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: #900;
+}
+
+h1 {
+	font-size: 35px;
+	color: #900;
+	font-family: Lobster, sans-serif;
+	text-shadow: 0 0 1px 2px #fff;/* 设置文本的阴影 */
+}
+
+.container {
+	width: 1400px;
+	overflow: hidden;
+}
+
+.aside{
+	float: left;
+	width: 320px;
+	overflow: hidden;
+	margin-left: 30px;
+}
+.logo {
+	width: 206px;
+	height: 205px;
+	float: left;
+	background: url(images/logoBackground.png) no-repeat;
+	margin-left:50px;
+}
+.logo h1{
+	color: burlywood;
+	line-height: 25px;
+	padding: 80px 0 0 43px;
+}
+.navlist{
+	list-style-type: none;
+	padding: 10px 0 0 130px;
+}
+.navlist li{
+	font-size: 30px;
+	font-family: Lobster, sans-serif;
+	text-shadow: 1px 1px 1px #fff;
+}
+.navlist li a{
+	color: #ac8829;
+}
+.navlist li a:hover{
+	color: #452200;
+}
+.navlist li a.active{
+	color: #452200;
+}
+
+
+/* 内容区 */
+.main{
+	width: 1000px;
+	overflow: hidden;
+}
+.main_hearder{
+	padding: 20px 0 0 60px;
+}
+.main_content{
+	padding: 10px 0 0 60px;
+	float: left;
+	overflow: hidden;
+}
+.box1, .box2, .box3{
+	width: 200px;
+	float: left;
+	margin-right: 80px;
+}
+.main_content img{
+	margin-top: 20px;;
+	width: 220px;
+	height: 130px;
+}
+.main_content .last{
+	float: left;
+}
+.main_content p{
+	color: black;
+}
+.main_content span{
+	c
+}
+.main_content .i1{
+	font-size: 16px;
+	font-weight: bold;
+	color: palevioletred;
+}
+.main_content .i2{
+	font-size: 16px;
+	font-weight: bold;
+	color: crimson;
+}
+
+/* 尾部部分 */
+.footer{
+	width: 1350px;
+	border-top: 3px solid chocolate;
+	margin: 20px 0 0 20px;
+	padding: 10px 0 50px 0;
+	text-align: center;
+}
+.footer span{
+	color: black;;
+}
+.footer .s1{
+	font-weight: bold;
+	color: crimson ;
+}
